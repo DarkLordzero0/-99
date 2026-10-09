@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "lumberjack",
+  "version": "${version}",
+  "name": "Lumberjack Dash Axe (client)",
+  "description": "Клиентский мод: золотой топор с именем «Нерушимый топор дровосека» по ПКМ ускоряет вперёд.",
+  "environment": "client",
+  "entrypoints": { "client": [ "com.example.lumberjack.LumberjackClient" ] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
